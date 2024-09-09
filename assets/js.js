@@ -1,4 +1,4 @@
-const songDuration = 72; // Длительность видео в секундах (2:28)
+const songDuration = 72; 
 
 function startSite() {
     document.getElementById('start-screen').style.display = 'none';
@@ -35,13 +35,13 @@ function formatTime(seconds) {
     return `${min}:${sec < 10 ? '0' : ''}${sec}`;
 }
 
-// Load the IFrame Player API code asynchronously.
+
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-// Добавляем эффект параллакса
+
 document.addEventListener('mousemove', (e) => {
     const elements = document.querySelectorAll('.content, .progress-container, #profile-pic, #by-sero, #centered-text');
     elements.forEach(el => {
