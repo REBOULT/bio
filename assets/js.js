@@ -1,4 +1,4 @@
-const songDuration = 115; // Длительность видео в секундах (2:28)
+const songDuration = 72; // Длительность видео в секундах (2:28)
 
 function startSite() {
     document.getElementById('start-screen').style.display = 'none';
