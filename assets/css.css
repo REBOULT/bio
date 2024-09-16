@@ -107,8 +107,8 @@ body, html {
     width: 212px;
     height: 212px;
     border-radius: 50%;
-    border: 2px solid green;
-    box-shadow: 0 0 15px green;
+    border: 2px solid white;
+    box-shadow: 0 0 15px white;
     transition: transform 0.1s;
 }
 
